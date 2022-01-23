@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [mrfe6s9160pa.PrjPcb]
+   Generated File[s_mrfe6s9160pa.TXT]
+   Generated File[s_mrfe6s9160pa.LDP]
+   Generated File[s_mrfe6s9160pa.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 20:19:11 On 22/01/2022
