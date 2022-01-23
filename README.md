@@ -1,6 +1,6 @@
-# Budget MRFE6S9160 LDMOS Transistor 23cm band 1.3GHz Solid State Power Amplifier (SSPA)
+# Budget MRFE9S9160 LDMOS Transistor 23cm band 1.3GHz 150 Watt Solid State Power Amplifier (SSPA)
 
-MRFE6S9160 (E is an enhanced version of MRF6S9160, but there is no difference for the RF matching and general performance) is commonly found in many old GSM base-station systems and used as a final stage power amplifier (PA) device. We have seen there are already many excellent 23cm band 1.3GHz PAs built with this transistor. The one designed by DF9IC is very popular.  
+MRFE9S9160 (E is an enhanced version of MRF6S9160, but there is no difference for the RF matching and general performance) is commonly found in many old GSM base-station systems and used as a final stage power amplifier (PA) device. We have seen there are already many excellent 23cm band 1.3GHz PAs built with this transistor. The one designed by DF9IC is very popular.  
 
 MRFE9S9160 is easy to get from the Asian market, usually sold as a second-hand component, where they are removed from used base stations. That means this LDMOS transistor is super cheap compared to many other similar devices. However, there are some issues, for example, this device comes without many documents, S-parameter information and simulation models. Therefore, this makes computer-aided design is more difficult on this device.
 
@@ -42,15 +42,15 @@ BOM table as follows:
 
 |Component|Name|Package|Quantity|
 |:----:|:----:|:----:|:----:|
-|1uF 50V|MLCC Capcitor|C 0805|2|
-|1nF 50V|MLCC Capcitor|C 0805|3|
-|10nF 50V|MLCC Capcitor|C 0805|1
-|100pF 100V|C0G Capcitor|C 0603|1
-|3.3pF 100V|C0G Capcitor|C 0603|2
-|4.7pF 100V|C0G Capcitor|C 0603|2
-|100pF 500V|ATC500B Capcitor|C 1210|1
-|3.3pF 100V|ATC500B Capcitor|C 1210|6
-|1pF 500V|ATC500B Capcitor|C 1210|1
+|1uF 50V|MLCC Capacitor|C 0805|2|
+|1nF 50V|MLCC Capacitor|C 0805|3|
+|10nF 50V|MLCC Capacitor|C 0805|1
+|100pF 100V|C0G Capacitor|C 0603|1
+|3.3pF 100V|C0G Capacitor|C 0603|2
+|4.7pF 100V|C0G Capacitor|C 0603|2
+|100pF 500V|ATC500B Capacitor|C 1210|1
+|3.3pF 100V|ATC500B Capacitor|C 1210|6
+|2.2pF 500V|ATC500B Capacitor|C 1210|1
 |100uF/50V|Aluminum Electrolytic Capacitor|CT 10*8-C|1
 |SMA|SMA Female Connector|SMA-KE|2
 |MRFE6S9160|N-CHANNEL RF LDMOS|MRFE6S9160HR3/HSR3|1|
@@ -58,6 +58,8 @@ BOM table as follows:
 |2K2|Chip Resistor|R 0603|1|
 |LM7808/05|Regulator|TO252|1|
 |3224W-1-103E|10K Variable Resistor|3224W1205E|1|
+|3pF Variable Cap|High Q Cap Trimmer|3P-6mm|1|
+
 
 Schematic of the PA:
 
@@ -101,6 +103,6 @@ A plot of the output power and current:
 
 VY 73!
 
-BG3MDO and BG0AUB
+BG3MDO (Yuan) and BG0AUB (Feng)
 
 CC BY-SA 4.0
