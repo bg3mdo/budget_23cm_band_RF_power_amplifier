@@ -85,7 +85,7 @@ R1 can be 47 or 51 Ohm, two coils are 1.5mm thick enameled wire, 1.5T on a 6mm d
 
 - Generally saying, when the input is around 2 Watts, the PA will consume around 8A current and output > 60 Watts. In this case, some fine tuning can be performed – moving upper/lower three ATC capacitors together left or right 1mm each time in order to obtain the maximum output.
 
-- Large signal gain of this PA is around 16-17 dB. If the PA current is under 7A where input is 2W, or even less, you will need to move these 3.3 pF lift/right harshly, 2mm for example, and try to find a point that you have a good current reading. Some bad ATC capacitor will cause the low current/power issue too, so you should consider to replace these capacitors in the case no proper power generated. A large current is a good sight of outputting expected power.
+- Large signal gain of this PA is around 16-17 dB. If the PA current is under 7A where input is 2W, or even less, you will need to move these 3.3 pF left/right harshly, 2mm for example, and try to find a point that you have a good current reading. Some bad ATC capacitor will cause the low current/power issue too, so you should consider to replace these capacitors in the case no proper power generated. A large current is a good sight of outputting expected power.
 
 - When the input power around 6W, you should see the output is nearly saturated – output compressed. 
 
