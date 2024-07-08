@@ -1,14 +1,16 @@
 # Budget MRFE6S9160 LDMOS Transistor 23cm band 1.3GHz 150 Watt Solid State Power Amplifier (SSPA)
 
+This project is following CC-BY-SA, please follow the lisence when you make your own or opensource your designs.
+
 MRFE6S9160 (E is an enhanced version of MRF6S9160, but there is no difference for the RF matching and general performance) is commonly found in many old GSM base-station systems and used as a final stage power amplifier (PA) device. We have seen there are already many excellent 23cm band 1.3GHz PAs built with this transistor. The one designed by DF9IC is very popular.  
 
 MRFE6S9160 is easy to get from the Asian market, usually sold as a second-hand component, where they are removed from used base stations. That means this LDMOS transistor is super cheap compared to many other similar devices. However, there are some issues, for example, this device comes without many documents, S-parameter information and simulation models. Therefore, this makes computer-aided design is more difficult on this device.
 
-BG0AUB, ZHAO Feng, and I seat together, well virtually as I was in the UK, and considered were we able to make an even budget 23cm band PA for an EME project. Yes, we did. After a few design iterations, we have made the FR4 substrate 23cm band MRFE6S9160 PA, and decided to open-source it. The board can be fabricated by JLC 0.8mm 1zo technology.
+MRFE6S9160 can be used for making a budget 23cm band PA and for an EME project. After a few design iterations, I have made the FR4 substrate 23cm band MRFE6S9160 PA, and decided to open-source it. The board can be fabricated by JLC 0.8mm 1zo technology.
 
-We have learnt a lot from this project, including high power RF related knowledge and the use of design/simulation tools. In addition, Feng had spent massive time on this – practical installation and testing work.
+I have learnt a lot from this project, including high power RF related knowledge and the use of design/simulation tools.
 
-DF9IC has made a FR4 substrate experiment, but the result was not grate. We started from there, and further analysing his work. Feng and I considered there were rooms to improve, and FR4 would be still a solution for 23cm band PA designs. After playing with computer simulations, I decided to change the layout, so making rooms for better matching. 
+DF9IC has made a FR4 substrate experiment, but the result was not grate. I started from there, and further analysing his work. I considered there were rooms to improve, and FR4 would be still a solution for 23cm band PA designs. After playing with computer simulations, I decided to change the layout, so making rooms for better matching. 
 
 The following pictures show the new layout:
 
@@ -103,6 +105,6 @@ A plot of the output power and current:
 
 VY 73!
 
-BG3MDO (Yuan) and BG0AUB (Feng)
+BG3MDO (Yuan)
 
 CC BY-SA 4.0
