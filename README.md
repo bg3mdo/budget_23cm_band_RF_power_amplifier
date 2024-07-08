@@ -1,6 +1,6 @@
 # Budget MRFE6S9160 LDMOS Transistor 23cm band 1.3GHz 150 Watt Solid State Power Amplifier (SSPA)
 
-This project is following CC-BY-SA, please follow the lisence when you make your own or opensource your designs.
+This project is following CC-BY-SA 4.0, please follow the license when you make your own or opensource your designs.
 
 MRFE6S9160 (E is an enhanced version of MRF6S9160, but there is no difference for the RF matching and general performance) is commonly found in many old GSM base-station systems and used as a final stage power amplifier (PA) device. We have seen there are already many excellent 23cm band 1.3GHz PAs built with this transistor. The one designed by DF9IC is very popular.  
 
