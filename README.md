@@ -103,6 +103,12 @@ A plot of the output power and current:
 
 <img src="graph.png" width="600">
 
+## Duo LDMOS Version:
+
+Typically, the above design encounters a draft bias issue, causing changes in the working conditions as the PA heats up. This issue is exacerbated when used in an outdoor setup, such as placing the PA close to your dish for most EME operations. Additionally, a small dish (3-4 meters in diameter) requires more power. To address this, a power combined version using 4x LDMOS is recommended. You will need another coupler to combine the power from both units, as PCB-based power combiners cannot handle such high power levels. I suggest using coax cable to make power combiners. 
+
+<img src="duo_version.jpg" width="600">
+
 VY 73!
 
 BG3MDO (Yuan) and BG0AUB (Feng)
