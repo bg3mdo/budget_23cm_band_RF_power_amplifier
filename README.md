@@ -109,6 +109,10 @@ Typically, the above design encounters a draft bias issue, causing changes in th
 
 <img src="duo_version.jpg" width="600">
 
+<img src="duo_test.jpg" width="600">
+
+<img src="duo_chart.jpg" width="600">
+
 VY 73!
 
 BG3MDO (Yuan) and BG0AUB (Feng)
